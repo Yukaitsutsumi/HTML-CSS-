@@ -1,0 +1,89 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list-contents {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 960px;
+  list-style: none;
+}
+
+.list:nth-child(odd) {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.list:nth-child(even) {
+  padding: 20px;
+}
+
+.box-contents {
+  width: 960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  height: 200px;
+  width: 30%;
+  background-color: #ff8c00;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+.box2 {
+  height: 200px;
+  width: 30%;
+  background-color: #ffd700;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+.box3 {
+  height: 200px;
+  width: 30%;
+  background-color: #ffd700;
+  margin-bottom: 40px;
+}
+.box4 {
+  height: 200px;
+  width: 30%;
+  background-color: #ffd700;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+.box5 {
+  height: 200px;
+  width: 30%;
+  background-color: #ff8c00;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+.box6 {
+  height: 200px;
+  width: 30%;
+  background-color: #ffd700;
+  margin-bottom: 40px;
+}
+.box7 {
+  height: 200px;
+  width: 30%;
+  background-color: #ffd700;
+  margin-right: 5%;
+}
+.box8 {
+  height: 200px;
+  width: 30%;
+  background-color: #ffd700;
+  margin-right: 5%;
+}
+.box9 {
+  height: 200px;
+  width: 30%;
+  background-color: #ff8c00;
+}
